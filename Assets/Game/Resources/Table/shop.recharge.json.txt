@@ -1,0 +1,1 @@
+[{"Id": 1, "Coin": 200, "Type": 0, "Price": 0.99, "Identifier": "200stars"}, {"Id": 2, "Coin": 500, "Type": 0, "Price": 1.99, "Identifier": "500stars"}, {"Id": 3, "Coin": 1000, "Type": 0, "Price": 2.99, "Identifier": "1000stars"}, {"Id": 4, "Coin": 0, "Type": 1, "Price": 4.99, "Identifier": "remove_ads"}]

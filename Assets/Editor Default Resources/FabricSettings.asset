@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad9ddc0e5b942a98ec392b434d39bd, type: 3}
+  m_Name: FabricSettings
+  m_EditorClassIdentifier: 
+  email: vikatory@163.com
+  rawToken: '{"access_token":"bf5adb00d65a19dc47b33b0a8a31f68f73695e7d3a7872b30b60bd0499f062c3","refresh_token":"c74c3d32a1cb5e74b5321483398540bf1421a883882f0d9c7d94b50e97c06958","token_type":"bearer","expires_in":86400}'
+  organization:
+    Name: "hejia\u2019s Projects"
+    Id: 5ab3506b2edc7fef22000e06
+    ApiKey: 3fd9270a4f31540c882d156c968fedc49b64cf84
+    BuildSecret: d0b336157fb2d77d7b7d778b7e2eb52fead1d0c309550824f32ffc73e5ba6c48
+  iconUrl: https://s3.amazonaws.com/assets.crashlytics.com/production/project/8004381/project_icon/3990381/icon.png
+  dashboardUrl: https://www.fabric.io/hejias-projects/android/apps/ballz.balls.bricks.breaker.ballz.bounce.puzzle
+  initialization: 0
+  flowSequence: 0
+  conflict: 
+  kit: 
+  installedKits:
+  - Name: Crashlytics
+    InstallationStatus: 2
+    Installed: 1
+    Enabled: 1
+    Meta:
+    - Key: ConfiguredTimestamp
+      Value: 1521701941
+      Platform: 
+    - Key: Dependencies
+      Value: '[{"name":"Crashlytics-Android","version":"2.6.8"},{"name":"Crashlytics-Core-Android","version":"2.3.17"},{"name":"Fabric-Android","version":"1.3.17"},{"name":"Answers-Android","version":"1.3.13"},{"name":"Beta-Android","version":"1.2.5"},{"name":"Crashlytics-iOS","version":"3.8.3"},{"name":"Crashlytics-Wrapper-iOS","version":"0.0.0"},{"name":"Crashlytics-Wrapper-Android","version":"0.0.0"}]'
+      Platform: 

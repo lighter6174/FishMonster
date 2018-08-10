@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "76986081899",
+    "firebase_url": "https://snake-sugar.firebaseio.com",
+    "project_id": "snake-sugar",
+    "storage_bucket": "snake-sugar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76986081899:android:c52b058c58fc184a",
+        "android_client_info": {
+          "package_name": "com.jy.game.snake.sugar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76986081899-9457bv4g50hpfsrfk0l7e5pev66eq4vc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "76986081899-9457bv4g50hpfsrfk0l7e5pev66eq4vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwwgrZK2cthaR86qaza66nfMxfCOHi_cU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

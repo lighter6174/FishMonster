@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda7b514351388e47a0492669e9335d0, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  ColNum: 7
+  RowNum: 10
+  CoinVideoChancePerDay: 50
+  TimeToShowFastForward: 6
+  MaxReliveChance: 1
+  GuideRemainTime: 5
+  TileColors:
+  - startValue: 2
+    startColor: {r: 0.8392157, g: 0.6901961, b: 0.29411766, a: 1}
+  - startValue: 2
+    startColor: {r: 0.8392157, g: 0.6901961, b: 0.29411766, a: 1}
+  - startValue: 5
+    startColor: {r: 0.06666667, g: 0.68235296, b: 0.61960787, a: 1}
+  - startValue: 8
+    startColor: {r: 0.25490198, g: 0.827451, b: 0.20784314, a: 1}
+  - startValue: 12
+    startColor: {r: 1, g: 0.40392157, b: 0.10980392, a: 1}
+  - startValue: 30
+    startColor: {r: 0.91764706, g: 0.23921569, b: 0.4392157, a: 1}
+  - startValue: 50
+    startColor: {r: 0.20392157, g: 0.8901961, b: 0.88235295, a: 1}
+  - startValue: 70
+    startColor: {r: 0.7411765, g: 0.21568628, b: 0.81960785, a: 1}
+  - startValue: 100
+    startColor: {r: 0.21568628, g: 0.50980395, b: 1, a: 1}
+  TileNumberColors: {r: 0, g: 0, b: 0, a: 1}
+  TileNumberColorsPro: {r: 1, g: 1, b: 1, a: 1}
+  PathBallPrefab: {fileID: 1370339209556280, guid: c744d3c5e867d444cb027b6aa3f2ba19,
+    type: 2}
+  RowPrefab: {fileID: 1630507881390742, guid: 3dd34d4fa050b564ebf8d6c554459aa3, type: 2}
+  LaserPrefab: {fileID: 1988913566408114, guid: cd0ab38c72925084fbb5c9ae556a98d0,
+    type: 2}
+  TilePrefabs:
+  - Type: 1
+    Prefab: {fileID: 1721440860503420, guid: 539251167bd5eda4d97b57fe09fa6e08, type: 2}
+  - Type: 7
+    Prefab: {fileID: 1235475855193864, guid: db9229fd4314b434da6f0a1075212dad, type: 2}
+  - Type: 8
+    Prefab: {fileID: 1193267615383778, guid: c1ff3e7ee18ff424f8117a16f1a23dfc, type: 2}
+  - Type: 2
+    Prefab: {fileID: 1750244220496112, guid: 81b9d64ab76df8a4b88ed1321099286a, type: 2}
+  - Type: 3
+    Prefab: {fileID: 1999740044726366, guid: 85cafde1d8ae5944194b9893d77bb8a3, type: 2}
+  - Type: 4
+    Prefab: {fileID: 1997760732166212, guid: 0b109760a69677748ac45c04ee780683, type: 2}
+  - Type: 5
+    Prefab: {fileID: 1266106946036552, guid: 0b8a5b176ba53314c9ad09dbcf6d45aa, type: 2}
+  - Type: 13
+    Prefab: {fileID: 1003925924275042, guid: 8f7b6a19451806344b9a9a6b48adc304, type: 2}
+  - Type: 11
+    Prefab: {fileID: 1462290483349864, guid: 93ca9b9de26c956489ed5612c9bb6e7e, type: 2}
+  - Type: 12
+    Prefab: {fileID: 1966310389328964, guid: 3bd26a4b55e01a441928d69ee152afa0, type: 2}
+  - Type: 9
+    Prefab: {fileID: 1251898066410082, guid: c78f983262b15fb46853a8d8aea13294, type: 2}
+  - Type: 10
+    Prefab: {fileID: 1236995567283776, guid: 0645ce444b3608f4cae58e1c042291cf, type: 2}
+  - Type: 14
+    Prefab: {fileID: 1019735612309406, guid: afe4f5fa4910a0e4cb414c92f65620c1, type: 2}
+  - Type: 15
+    Prefab: {fileID: 1496368647715474, guid: a8e5f1525e7574d47ab439fbf7b248eb, type: 2}
+  UIPrefabs:
+  - Type: 5
+    Prefab: {fileID: 1940721763327140, guid: 44fe795542b61b643abaea0caeff905e, type: 2}
+  - Type: 3
+    Prefab: {fileID: 1159951684770740, guid: cc8660a846817f04f8892b4e821c0f39, type: 2}
+  - Type: 1
+    Prefab: {fileID: 1289980613324858, guid: 7718718e6420f2e43ab40256dddffe26, type: 2}
+  - Type: 2
+    Prefab: {fileID: 1539203557669436, guid: 2e3ae67bb0873a34eb6d8e85c129ab74, type: 2}
+  - Type: 4
+    Prefab: {fileID: 1243130473664130, guid: 53ca4f4e6d1a1514eb9399500825c434, type: 2}
+  - Type: 6
+    Prefab: {fileID: 1818958790718952, guid: d649562dd51c5b5438ca38f4943d9735, type: 2}
+  - Type: 7
+    Prefab: {fileID: 1159951684770740, guid: 311305c8e68064c42a1afeb1c5c49fa2, type: 2}
+  - Type: 8
+    Prefab: {fileID: 1289980613324858, guid: 9325764d0a07d684cb8ecf374fa681f8, type: 2}
+  - Type: 9
+    Prefab: {fileID: 1539203557669436, guid: 90c65f2442ef774468de21bb5cfda265, type: 2}
+  - Type: 10
+    Prefab: {fileID: 1289980613324858, guid: 2236301a27052fe4d8bfd28a98fd7a36, type: 2}
+  - Type: 11
+    Prefab: {fileID: 1289980613324858, guid: a70174015fb0cec42b3897410d54255a, type: 2}
+  ThemeConfigs:
+  - Id: 1
+    MainMenuColorUp: {r: 0.43529412, g: 0.7411765, b: 0.8392157, a: 1}
+    MainMenuColorDown: {r: 0.11372549, g: 0.40392157, b: 0.57254905, a: 1}
+    GameBgColor: {r: 0, g: 0, b: 0, a: 0}
+    GameBgSprite: {fileID: 21300000, guid: 395d70e9ab32335429dcef37dd5eeeba, type: 3}
+    MoveSquareSprite: {fileID: 21300000, guid: 8f4c1d60f1f2c6042b1226c2d4327c9d, type: 3}
+    TurretAllDirction: {fileID: 21300000, guid: 6bcd5f4d5bdc1f1468eaad83adea10b3,
+      type: 3}
+    TurretHorizontal: {fileID: 21300000, guid: bc3d299496e32844b8202a7ae759c5d0, type: 3}
+    TurretLeftDiagonal: {fileID: 21300000, guid: 82d12dcf0558dee4aa9fab2b57dadaa5,
+      type: 3}
+    TurretRightDiagonal: {fileID: 21300000, guid: 34152b8e5376ece4f9da37cf213f4782,
+      type: 3}
+    TurretVertical: {fileID: 21300000, guid: cf19736805fd1574882479d41c36a680, type: 3}
+  - Id: 2
+    MainMenuColorUp: {r: 0.41568628, g: 0.6862745, b: 0.85882354, a: 1}
+    MainMenuColorDown: {r: 0, g: 0.29803923, b: 0.41960785, a: 1}
+    GameBgColor: {r: 0, g: 0, b: 0, a: 0}
+    GameBgSprite: {fileID: 21300000, guid: 7e9fda3ad4a82b34f98179cec2befb15, type: 3}
+    MoveSquareSprite: {fileID: 21300000, guid: 8f4c1d60f1f2c6042b1226c2d4327c9d, type: 3}
+    TurretAllDirction: {fileID: 21300000, guid: 6bcd5f4d5bdc1f1468eaad83adea10b3,
+      type: 3}
+    TurretHorizontal: {fileID: 21300000, guid: bc3d299496e32844b8202a7ae759c5d0, type: 3}
+    TurretLeftDiagonal: {fileID: 21300000, guid: 82d12dcf0558dee4aa9fab2b57dadaa5,
+      type: 3}
+    TurretRightDiagonal: {fileID: 21300000, guid: 34152b8e5376ece4f9da37cf213f4782,
+      type: 3}
+    TurretVertical: {fileID: 21300000, guid: cf19736805fd1574882479d41c36a680, type: 3}
+  HitSound: {fileID: 8300000, guid: 9a45b4e0c125afb4caadca6821f9431f, type: 3}
+  AddRowSound: {fileID: 8300000, guid: 40423f39d8539a44c975d4d717c42875, type: 3}
+  BallPlusSound: {fileID: 8300000, guid: 39858787d6a73414889fe6e72d94c9d2, type: 3}
+  CoinSound: {fileID: 8300000, guid: c0d6b720f4d6f82408b9b984d0de3092, type: 3}
+  DeadSound: {fileID: 8300000, guid: 3674e22af4eee9c42ab436071fecb7b5, type: 3}
+  ReliveSound: {fileID: 8300000, guid: e3510716fcd305c49973ac175447f9b0, type: 3}
+  ReliveSound2: {fileID: 8300000, guid: 8631bd651770ee746bb466a0ec6ab97f, type: 3}
+  ButtonClickSound: {fileID: 8300000, guid: 69f7f20ae8e5c6f4f8c0b56eb423b324, type: 3}
+  BatterySoundPro: {fileID: 8300000, guid: 149992bb0dc0ea34ba9b70fe8e89e00c, type: 3}
+  MovetableSoundPro: {fileID: 8300000, guid: 3ababa4982fa3f74bad8c7c9c2d3bfbc, type: 3}
+  CleanSoundPro: {fileID: 8300000, guid: 1d4d733cda1ce7c4b95d41b8e701d7e9, type: 3}
+  StarSoundPro: {fileID: 8300000, guid: 0373b0a4e5ac2f342b13391830c60469, type: 3}
+  StageSoundPro: {fileID: 8300000, guid: 85f602abdb912bd4a87daabc4eaa81da, type: 3}
+  KeySoundPro: {fileID: 8300000, guid: 0d4bb4eae2c3ccb48ae9733efb23c5f1, type: 3}
+  End0SoundPro: {fileID: 8300000, guid: a75c5efb6fdc37b4fac7d17f0963c13b, type: 3}
+  End1SoundPro: {fileID: 8300000, guid: 49fe45899a4da064eb2ea8418fbc4dc5, type: 3}
+  TipboxPrefab: {fileID: 1008187459183738, guid: c2e5c8fedfd54a34ba4faa72c4f67a2a,
+    type: 2}
+  TipboxShowTime: 1
+  TipboxFadeTime: 1.5

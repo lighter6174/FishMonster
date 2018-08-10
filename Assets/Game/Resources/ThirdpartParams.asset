@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ThirdpartParams
+  m_EditorClassIdentifier: Assembly-CSharp::ThirdpartParams
+  paramList:
+  - name: admob_appid
+    test: ca-app-pub-3940256099942544~3347511713
+    android: ca-app-pub-1502322555229195~9695081646
+    ios: 
+  - name: admob_unitid_banner
+    test: ca-app-pub-3940256099942544/6300978111
+    android: ca-app-pub-1502322555229195/2275756625
+    ios: 
+  - name: admob_unitid_interstitial
+    test: ca-app-pub-3940256099942544/1033173712
+    android: ca-app-pub-1502322555229195/7651727458
+    ios: 
+  - name: admob_unitid_rewarded_video_relive
+    test: ca-app-pub-3940256099942544/5224354917
+    android: ca-app-pub-1502322555229195/4794054853
+    ios: 
+  - name: admob_unitid_rewarded_video_pay
+    test: ca-app-pub-3940256099942544/5224354917
+    android: ca-app-pub-1502322555229195/9252174612
+    ios: 
